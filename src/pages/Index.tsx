@@ -69,7 +69,7 @@ const Index = () => {
     stats: {
       title: "Statystyki",
       content: <StatsWidget stats={MOCK_STATS} />,
-      colSpan: "col-span-1",
+      colSpan: "col-span-3",
     },
     arrivals: {
       title: `Przyjazdy (${MOCK_ARRIVALS.length})`,
